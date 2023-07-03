@@ -1,4 +1,4 @@
-public class Transport {
+public class Transport extends ServiceStation {
     private String modelName;
     private int wheelsCount;
 
@@ -21,7 +21,6 @@ public class Transport {
 
     public void service() {
         for (int i = 0; i < getWheelsCount(); i++) {
-            service();
             updateTyre();
         }
     }
