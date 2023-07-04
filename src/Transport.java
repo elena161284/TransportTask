@@ -1,4 +1,4 @@
-public class Transport extends ServiceStation {
+public abstract class Transport {
     private String modelName;
     private int wheelsCount;
 

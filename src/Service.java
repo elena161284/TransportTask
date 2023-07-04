@@ -1,3 +1,3 @@
 public interface Service {
-    void service();
+    void service(Transport transport);
 }

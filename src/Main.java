@@ -6,10 +6,10 @@ public class Main {
 
         ServiceStation station = new ServiceStation();
         System.out.println("Велосипед:");
-        station.check(bicycle);
+        station.service(bicycle);
         System.out.println("Автомобиль:");
-        station.check(car);
+        station.service(car);
         System.out.println("Прицеп:");
-        station.check(truck);
+        station.service(truck);
     }
 }

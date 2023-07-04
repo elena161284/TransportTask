@@ -1,4 +1,4 @@
-public abstract class MotorTransport extends Transport {
+public class MotorTransport extends Transport {
     public MotorTransport(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
